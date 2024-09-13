@@ -1,0 +1,122 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --floral: #fbf8f3;
+  --nero: #232323;
+}
+
+/* navbar start */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--floral);
+  padding: 1rem 3rem;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 3rem;
+  margin-right: 1rem;
+}
+
+.navbar-link {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.navbar-link a {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: black;
+}
+/* navbar end */
+
+/* section start */
+.section {
+  background-color: var(--nero);
+  color: var(--floral);
+  padding: 8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info {
+  width: 30%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+
+.info h1,
+.info h4,
+.info a {
+  padding-bottom: 2rem;
+}
+
+.section a {
+  border: 1px solid black;
+  padding: 5px 6px;
+  background-color: var(--floral);
+  color: black;
+  text-align: center;
+  border-radius: 5px;
+}
+/* section end */
+
+/* footer */
+footer {
+  text-align: center;
+}
+
+.container-footer {
+  padding: 2rem 7rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sosial-media {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.instagram,
+.tiktok,
+.twitter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.instagram img,
+.tiktok img,
+.twitter img {
+  width: 1.5rem;
+  margin-right: 1rem;
+}
+
+footer p {
+  padding-bottom: 1rem;
+}
